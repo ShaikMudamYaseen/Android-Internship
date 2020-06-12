@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Date"
+       android:background="@color/colorAccent"
+       android:textColor="#F6F0F0"
+       android:onClick="date"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:textSize="30sp"
+      android:id="@+id/tv"
+      android:gravity="center"
+      android:text="print date"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="time"
+      android:background="#000"
+      android:textColor="#ffff"
+      android:onClick="time"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:id="@+id/tv1"
+       android:gravity="center"
+       android:text="print Time"/>
+</LinearLayout>
